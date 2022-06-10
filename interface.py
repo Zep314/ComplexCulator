@@ -24,10 +24,16 @@ def _info():
 
 def interface():
     init()
+
+    # inp = '(5+7i)+(5.5-2i)'
+    # res = complexculator(inp)
+    # print(res)
+
+    # exit()
     add2log('Начало работы','<')
 
     while True:
-        inp = input('>>>')
+        inp = input('>>> ')
         add2log(inp,'>')
         match inp.lower():
             case '/help': _help()

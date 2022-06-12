@@ -25,11 +25,12 @@ def _info():
 def interface():
     init()
 
-    # inp = '(5+7i)+(5.5-2i)'
-    # res = complexculator(inp)
-    # print(res)
+#    inp = '(5+7i)+(5.5-2i)+(12-12i)-1'
+#    inp = '-i+(5.5-2i)'
+#    res = complexculator(inp)
+#    print(res)
+#    exit()
 
-    # exit()
     add2log('Начало работы','<')
 
     while True:
